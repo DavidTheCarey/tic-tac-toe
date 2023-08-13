@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 10vmin);
+    grid-template-rows: repeat(3, 10vmin);
+    gap: 1vmin;
+    margin-top: -2vmin;
+    position: relative;
+    background-image: url("https://i0.wp.com/www.thegamegal.com/wp-content/uploads/2018/08/ultimate-tic-tac-toe12-01.png?resize=340%2C340&ssl=1");
+    background-size: 115%;
+    background-position-x: -19px;
+    background-position-y: -19px;
+}
+
+#board>div {
+    border: 0.1vmin solid grey;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+heading{
+    font-size: 78px;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    margin-bottom: 2.5rem;
+}
+
+button{
+    margin-top:50px;
+    width: 100px
+}
+
+
+
+
